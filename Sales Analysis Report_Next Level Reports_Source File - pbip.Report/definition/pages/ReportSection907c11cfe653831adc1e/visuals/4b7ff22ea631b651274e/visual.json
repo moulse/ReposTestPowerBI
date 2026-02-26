@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "4b7ff22ea631b651274e",
+  "position": {
+    "x": 572,
+    "y": 110,
+    "z": 1000,
+    "height": 150,
+    "width": 323,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Help Message",
+    "groupMode": "ScaleMode"
+  }
+}

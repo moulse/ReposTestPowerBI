@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "9328bf8552110e25dd87",
+  "position": {
+    "x": 7,
+    "y": 501,
+    "z": 0,
+    "height": 134.46951225871825,
+    "width": 243,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Right Pane_Net Profit",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "f5e69030dd731063e3d3"
+}

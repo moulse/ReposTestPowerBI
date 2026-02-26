@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "1c7e7db9edce679d7e3d",
+  "position": {
+    "x": 0.66393442622950261,
+    "y": 46.598360655737679,
+    "z": 4000,
+    "height": 50.5,
+    "width": 243.421875,
+    "tabOrder": 4000
+  },
+  "visualGroup": {
+    "displayName": "COGs Info",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "6812dea6a45e0fcf2d1d"
+}

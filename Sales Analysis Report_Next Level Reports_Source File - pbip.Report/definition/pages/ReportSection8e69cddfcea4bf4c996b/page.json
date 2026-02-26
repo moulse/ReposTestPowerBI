@@ -1,0 +1,277 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "ReportSection8e69cddfcea4bf4c996b",
+  "displayName": "Cost Of Goods",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filterbc65a3d91acb60aaddb6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_DATE"
+              }
+            },
+            "Property": "Reporting Period"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter19d9df321594e8b7b15a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Segment"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter429bb89b3d63c0b96aa0",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Segment Short Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter8060a45164baef6b676e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Country"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filterb9560e17ab112f1cb4ba",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Country Short Name"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filter5c7f7ee2b443d556ec01",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Product"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      },
+      {
+        "name": "Filtera859d0e77329e1216104",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Product Name (Short)"
+          }
+        },
+        "type": "Categorical",
+        "howCreated": "Drillthrough"
+      }
+    ]
+  },
+  "pageBinding": {
+    "name": "Pod2",
+    "type": "Drillthrough",
+    "parameters": [
+      {
+        "name": "Param_Filterbc65a3d91acb60aaddb6",
+        "boundFilter": "Filterbc65a3d91acb60aaddb6",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "DIM_DATE"
+              }
+            },
+            "Property": "Reporting Period"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter19d9df321594e8b7b15a",
+        "boundFilter": "Filter19d9df321594e8b7b15a",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Segment"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter429bb89b3d63c0b96aa0",
+        "boundFilter": "Filter429bb89b3d63c0b96aa0",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Segment Short Name"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter8060a45164baef6b676e",
+        "boundFilter": "Filter8060a45164baef6b676e",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Country"
+          }
+        }
+      },
+      {
+        "name": "Param_Filterb9560e17ab112f1cb4ba",
+        "boundFilter": "Filterb9560e17ab112f1cb4ba",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Country Short Name"
+          }
+        }
+      },
+      {
+        "name": "Param_Filter5c7f7ee2b443d556ec01",
+        "boundFilter": "Filter5c7f7ee2b443d556ec01",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Product"
+          }
+        }
+      },
+      {
+        "name": "Param_Filtera859d0e77329e1216104",
+        "boundFilter": "Filtera859d0e77329e1216104",
+        "fieldExpr": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FACT_SALES"
+              }
+            },
+            "Property": "Product Name (Short)"
+          }
+        }
+      }
+    ]
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'BG_Drillthrough.png'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "BG_Drillthrough17308318283980806.png"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Fit'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "width": {
+            "expr": {
+              "Literal": {
+                "Value": "204L"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visibility": "HiddenInViewMode"
+}

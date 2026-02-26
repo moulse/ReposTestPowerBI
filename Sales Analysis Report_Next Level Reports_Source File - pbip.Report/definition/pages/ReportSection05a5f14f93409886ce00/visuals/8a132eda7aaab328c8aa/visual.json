@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "8a132eda7aaab328c8aa",
+  "position": {
+    "x": 200,
+    "y": 238,
+    "z": 4000,
+    "height": 440,
+    "width": 1038,
+    "tabOrder": 3000
+  },
+  "visualGroup": {
+    "displayName": "Period",
+    "groupMode": "ScaleMode"
+  }
+}

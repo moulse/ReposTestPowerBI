@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "18f3c9847c837f16ceeb",
+  "position": {
+    "x": 612,
+    "y": 114,
+    "z": 7001,
+    "height": 41.727791361043195,
+    "width": 88,
+    "tabOrder": 6000
+  },
+  "visualGroup": {
+    "displayName": "YOY Profit Margin",
+    "groupMode": "ScaleMode"
+  }
+}

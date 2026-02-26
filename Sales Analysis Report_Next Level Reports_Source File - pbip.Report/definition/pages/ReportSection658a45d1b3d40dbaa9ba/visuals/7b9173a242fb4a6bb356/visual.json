@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "7b9173a242fb4a6bb356",
+  "position": {
+    "x": 0,
+    "y": 166.62704918032787,
+    "z": 2000,
+    "height": 139.70928301708162,
+    "width": 250,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Right Pane_Net Sales",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "f5e69030dd731063e3d3"
+}

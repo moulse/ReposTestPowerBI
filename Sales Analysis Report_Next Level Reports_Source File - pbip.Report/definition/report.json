@@ -1,0 +1,381 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY22SU11",
+      "reportVersionAtImport": {
+        "visual": "1.8.76",
+        "report": "2.0.76",
+        "page": "1.3.76"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Next_Level_PBI_Reports_-_Theme4758311934582877.json",
+      "reportVersionAtImport": {
+        "visual": "1.8.76",
+        "report": "2.0.76",
+        "page": "1.3.76"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "simpleImageEBC4593F96F1425FB3D84C5BF02B5075"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY22SU11",
+          "path": "BaseThemes/CY22SU11.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "BG_Home1274045480519086.png",
+          "path": "BG_Home1274045480519086.png",
+          "type": "Image"
+        },
+        {
+          "name": "BG_Sales_Analysis9135288614891239.png",
+          "path": "BG_Sales_Analysis9135288614891239.png",
+          "type": "Image"
+        },
+        {
+          "name": "BG_Help2434339388843736.png",
+          "path": "BG_Help2434339388843736.png",
+          "type": "Image"
+        },
+        {
+          "name": "BG_Drillthrough17308318283980806.png",
+          "path": "BG_Drillthrough17308318283980806.png",
+          "type": "Image"
+        },
+        {
+          "name": "Next_Level_PBI_Reports_-_Theme4758311934582877.json",
+          "path": "Next_Level_PBI_Reports_-_Theme4758311934582877.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "Next_Level_Reports_Logo_-_Ligh2232053648019816.svg",
+          "path": "Next_Level_Reports_Logo_-_Ligh2232053648019816.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Clear_Filters_Gold3589128507676427.svg",
+          "path": "ICO_Clear_Filters_Gold3589128507676427.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Star_Gold015305230236022815.svg",
+          "path": "ICO_Star_Gold015305230236022815.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Discounts_White5675916759895987.svg",
+          "path": "ICO_Discounts_White5675916759895987.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Home_Gray5234623965025722.svg",
+          "path": "ICO_Home_Gray5234623965025722.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Home_Black05223451209334118.svg",
+          "path": "ICO_Home_Black05223451209334118.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Period_Gray21121839459564717.svg",
+          "path": "ICO_Period_Gray21121839459564717.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Period_Black9695044238710808.svg",
+          "path": "ICO_Period_Black9695044238710808.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Segment_Gray9285532318812728.svg",
+          "path": "ICO_Segment_Gray9285532318812728.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Segment_Black5093029166970515.svg",
+          "path": "ICO_Segment_Black5093029166970515.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Country_Gray17055973234880462.svg",
+          "path": "ICO_Country_Gray17055973234880462.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Country_Black5316379137769935.svg",
+          "path": "ICO_Country_Black5316379137769935.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Product_Gray07782864518504606.svg",
+          "path": "ICO_Product_Gray07782864518504606.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Product_Black07468821245269086.svg",
+          "path": "ICO_Product_Black07468821245269086.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Help_Gray4463279668050273.svg",
+          "path": "ICO_Help_Gray4463279668050273.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Help_Black42347211125275463.svg",
+          "path": "ICO_Help_Black42347211125275463.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Period_White9108065029284422.svg",
+          "path": "ICO_Period_White9108065029284422.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Period_White09396206772634241.svg",
+          "path": "ICO_Period_White09396206772634241.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Segment_White5665259530181102.svg",
+          "path": "ICO_Segment_White5665259530181102.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Segment_White4018782454067271.svg",
+          "path": "ICO_Segment_White4018782454067271.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Country_White7873588614028584.svg",
+          "path": "ICO_Country_White7873588614028584.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Country_White8865460391816629.svg",
+          "path": "ICO_Country_White8865460391816629.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Product_White48525629153925576.svg",
+          "path": "ICO_Product_White48525629153925576.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Product_White1471793838178781.svg",
+          "path": "ICO_Product_White1471793838178781.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Active_View_White536701478381246.svg",
+          "path": "ICO_Active_View_White536701478381246.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Units_Sold_Gray2822406011395324.svg",
+          "path": "ICO_Units_Sold_Gray2822406011395324.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Gross_Profit_Gray5601676913158917.svg",
+          "path": "ICO_Gross_Profit_Gray5601676913158917.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Discounts_Gray6384776680859825.svg",
+          "path": "ICO_Discounts_Gray6384776680859825.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Net_Sales_Gray10291486614820466.svg",
+          "path": "ICO_Net_Sales_Gray10291486614820466.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_COGs_Gray9516244188986929.svg",
+          "path": "ICO_COGs_Gray9516244188986929.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Profit_Gray13721167869485806.svg",
+          "path": "ICO_Profit_Gray13721167869485806.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Help_White4821786455796211.svg",
+          "path": "ICO_Help_White4821786455796211.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Help_White3442524167629366.svg",
+          "path": "ICO_Help_White3442524167629366.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Help_White8011365937461701.svg",
+          "path": "ICO_Help_White8011365937461701.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Icon_Animated_Navigation20855958588784662.gif",
+          "path": "Icon_Animated_Navigation20855958588784662.gif",
+          "type": "Image"
+        },
+        {
+          "name": "Icon_Animated_Overview915602515702429.gif",
+          "path": "Icon_Animated_Overview915602515702429.gif",
+          "type": "Image"
+        },
+        {
+          "name": "Icon_Animated_How_To_Use5744996681760486.gif",
+          "path": "Icon_Animated_How_To_Use5744996681760486.gif",
+          "type": "Image"
+        },
+        {
+          "name": "Next_Level_Reports_Logo_-_Blac42834923281474246.svg",
+          "path": "Next_Level_Reports_Logo_-_Blac42834923281474246.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Facebook_White38993319478388244.svg",
+          "path": "ICO_Facebook_White38993319478388244.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Facebook_White36804776665534433.svg",
+          "path": "ICO_Facebook_White36804776665534433.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Youtube_White598576138091018.svg",
+          "path": "ICO_Youtube_White598576138091018.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Youtube_White10639212636371487.svg",
+          "path": "ICO_Youtube_White10639212636371487.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Twitter_White12947263587504665.svg",
+          "path": "ICO_Twitter_White12947263587504665.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Twitter_White2153387267104372.svg",
+          "path": "ICO_Twitter_White2153387267104372.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Instagram_White4125690831649471.svg",
+          "path": "ICO_Instagram_White4125690831649471.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Instagram_White18765889244553824.svg",
+          "path": "ICO_Instagram_White18765889244553824.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_LinkedIN_White3431802264439281.svg",
+          "path": "ICO_LinkedIN_White3431802264439281.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_LinkedIN_White05338373785162953.svg",
+          "path": "ICO_LinkedIN_White05338373785162953.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_TikTok_White8118180655197875.svg",
+          "path": "ICO_TikTok_White8118180655197875.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_TikTok_White6568491194213106.svg",
+          "path": "ICO_TikTok_White6568491194213106.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Icon_Animated_Home_Page5234774446264152.gif",
+          "path": "Icon_Animated_Home_Page5234774446264152.gif",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Units_Sold_White5770730861246733.svg",
+          "path": "ICO_Units_Sold_White5770730861246733.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Net_Sales_White7656726745406899.svg",
+          "path": "ICO_Net_Sales_White7656726745406899.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_COGs_White39402089642642957.svg",
+          "path": "ICO_COGs_White39402089642642957.svg",
+          "type": "Image"
+        },
+        {
+          "name": "ICO_Profit_White345349539496034.svg",
+          "path": "ICO_Profit_White345349539496034.svg",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

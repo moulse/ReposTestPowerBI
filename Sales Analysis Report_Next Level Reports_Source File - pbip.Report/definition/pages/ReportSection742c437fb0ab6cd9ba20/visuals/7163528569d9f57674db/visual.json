@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "7163528569d9f57674db",
+  "position": {
+    "x": 228,
+    "y": 119.78021978021978,
+    "z": 0,
+    "height": 548.2197802197802,
+    "width": 990,
+    "tabOrder": 2000
+  },
+  "visualGroup": {
+    "displayName": "Units Sold DT",
+    "groupMode": "ScaleMode"
+  }
+}

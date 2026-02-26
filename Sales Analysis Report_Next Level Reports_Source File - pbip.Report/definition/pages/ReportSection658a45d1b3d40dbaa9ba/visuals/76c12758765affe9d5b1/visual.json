@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "76c12758765affe9d5b1",
+  "position": {
+    "x": 0,
+    "y": 40.745901639344254,
+    "z": 4000,
+    "height": 80,
+    "width": 236.5,
+    "tabOrder": 1000
+  },
+  "visualGroup": {
+    "displayName": "Net Sales Info",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "7b9173a242fb4a6bb356"
+}

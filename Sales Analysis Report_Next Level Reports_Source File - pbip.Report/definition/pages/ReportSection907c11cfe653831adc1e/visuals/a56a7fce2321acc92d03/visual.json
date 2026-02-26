@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "a56a7fce2321acc92d03",
+  "position": {
+    "x": 0,
+    "y": 323.07355623100307,
+    "z": 1000,
+    "height": 50.710382513661216,
+    "width": 168.7431693989071,
+    "tabOrder": 12000
+  },
+  "visualGroup": {
+    "displayName": "Button_Product_ACTIVE",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "6d49cd2180c7ab1e37a2",
+  "isHidden": true
+}

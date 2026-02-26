@@ -1,0 +1,17 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "34bf0c3a8af1470e5a51",
+  "position": {
+    "x": 107.04595957493842,
+    "y": 0,
+    "z": 13000,
+    "height": 41.911764705882348,
+    "width": 56.058823529411939,
+    "tabOrder": 6000
+  },
+  "visualGroup": {
+    "displayName": "Profit Margin",
+    "groupMode": "ScaleMode"
+  },
+  "parentGroupName": "ef1949732273a61e7ba6"
+}

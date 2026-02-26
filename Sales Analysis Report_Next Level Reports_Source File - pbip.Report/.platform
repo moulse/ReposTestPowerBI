@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Sales Analysis Report_Next Level Reports_Source File - pbip"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1713887c-a76c-4261-9b3d-fb08468be8f4"
+  }
+}
