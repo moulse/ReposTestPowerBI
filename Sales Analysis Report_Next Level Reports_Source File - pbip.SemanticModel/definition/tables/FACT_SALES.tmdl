@@ -1,6 +1,10 @@
 table FACT_SALES
 	lineageTag: 926f519f-4655-46d4-b6d9-34b7b67312f5
 
+	measure Measure = 333
+		formatString: 0
+		lineageTag: 933b345b-2ee4-4e98-ad0b-fe1762e8ab13
+
 	column YearMonth
 		dataType: string
 		lineageTag: 6e429de5-3791-411e-be70-5c51f2a21f86
